@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dagster-powerbi"
+version = "0.1.0"
+description = "A dagster plugin to allow users configure and generate dagster SDAs from Power BI assets."
+authors = ["Justin Cohen"]
+license = "Apache-2.0 License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dagster = "^1.6.9"
+pypowerbi = "^0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
